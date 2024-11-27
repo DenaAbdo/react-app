@@ -15,7 +15,9 @@ function App() {
         onSelectItem={hanldeSelectItem}
       /> */}
       {alertVisible && (
-        <Alert onClose={() => setAlertVisablity(false)}>Alert </Alert>
+        <Alert onClose={() => setAlertVisablity(false)}>
+          AlertI'm clicked :o Thx ;){" "}
+        </Alert>
       )}
       <Button onClick={() => setAlertVisablity(true)}>Click Me!</Button>
     </div>
